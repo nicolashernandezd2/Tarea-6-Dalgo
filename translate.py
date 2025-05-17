@@ -1,3 +1,7 @@
+"""
+ESTE ES EL EJERCICIO 1.3 DE LA TAREA
+"""
+
 class Grafo:
     def __init__(self):
         self.nodos = set()
