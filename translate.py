@@ -22,7 +22,7 @@ class Grafo:
     - Se crea un grafo vacío.
     - Se añaden nodos al grafo, cada nodo representa un literal. Si un literal aparece varias veces, se generan varios vértices distintos.
     - Se añaden aristas entre los nodos según las reglas:
-        1. No conectar nodos que pertenecen a la misma cláusula (ej: p1 y p2).
+        1. No conectar nodos que pertenecen a la misma cláusula.
         2. No conectar literales complementarios (ej: p1 y ¬p1).
 """
 def translate(literals):
